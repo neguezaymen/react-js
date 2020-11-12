@@ -1,38 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
 .App {
   text-align: center;
+  background: rgb(135, 132, 189);
+  background: linear-gradient(
+    90deg,
+    rgba(135, 132, 189, 1) 0%,
+    rgba(133, 217, 245, 1) 29%,
+    rgba(133, 213, 242, 1) 50%,
+    rgba(0, 212, 255, 1) 77%,
+    rgba(141, 202, 217, 1) 99%,
+    rgba(219, 219, 240, 1) 100%
+  );
+  padding-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.Nav-bar h1 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ff0000 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: cursive;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.formulaire {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bouton-form {
+  text-align: center;
 }
